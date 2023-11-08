@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
+  background-image: url('./images/background.png'); /* Path to your background image */
+  background-size:contain; /* Cover the entire body with the image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-attachment: fixed; /* Fixed background position */
+  background-position: center 20px;
+  background-clip: content-box;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
+  background-color: #003049;
+  color: #fff;
   display: flex;
-  flex-direction: column;
+  height:60px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding:10px 10%;
+  justify-content: space-between;
+
 }
 
-.App-link {
-  color: #61dafb;
+.site-title{
+  font-size: 1.3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav a{
+
+  color: inherit;
+  text-decoration: none;
+
+}
+
+.nav li{
+
+  list-style: none;
+}
+
+.navbar-button{
+
+  background-color: #F16C0D; 
+  color: white;             
+  padding: 10px 30px;     
+  border: none;             
+  border-radius: 5px;       
 }
