@@ -53,3 +53,20 @@ body{
   border: none;             
   border-radius: 5px;       
 }
+
+.content{
+
+  align-items: center;
+  text-align: center;
+  padding-top: 350px;
+ 
+}
+
+.signin-button{
+
+  background-color: #173F5F; 
+  color: white;             
+  padding: 15px 40px;     
+  border: none;             
+  border-radius: 5px;    
+}
