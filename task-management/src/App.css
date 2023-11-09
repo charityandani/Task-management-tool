@@ -9,12 +9,7 @@
 
 body{
   margin: 0;
-  background-image: url('./images/background.png'); /* Path to your background image */
-  background-size:contain; /* Cover the entire body with the image */
-  background-repeat: no-repeat; /* Prevent image from repeating */
-  background-attachment: fixed; /* Fixed background position */
-  background-position: center 20px;
-  background-clip: content-box;
+  
   
 }
 
@@ -64,9 +59,11 @@ body{
 
 .signin-button{
 
-  background-color: #173F5F; 
+  background-color: #F16C0D; 
   color: white;             
   padding: 15px 40px;     
   border: none;             
   border-radius: 5px;    
+  font-size: 1rem;
+  
 }
