@@ -50,6 +50,7 @@ body{
 .feature-link {
   text-decoration: none;
   color: #1D3960;
+  font-size: 18px;
 }
 
 .navbar-button {
@@ -58,6 +59,7 @@ body{
   background-color: #f0f0f0;
   border: 1.8px solid #3498db;
   border-radius: 15px;
+  font-size: 18px;
 }
 
 /* Add a hover effect for the button */
